@@ -1,0 +1,141 @@
+{
+  "name": "Vitaliy Yasenivskyy",
+  "label": "Software Engineer",
+  "image_path": "img/vy.jpg",
+  "contact": {
+    "email": "vitaliy.yasen@gmail.com",
+    "phone": "929-378-7771",
+    "location": "New York, NY, USA"
+  },
+  "summary": "Self-motivated, solutions-oriented developer with strong independent and team-working experience. Passionate about building full-stack web applications and continuously learning new technologies. Experienced in creating and maintaining back-end API services",
+
+  "social_links": [
+    {
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/yasenvit/",
+      "svg_path": "img/linkedin.svg"
+    },
+    {
+      "label": "Github",
+      "url": "https://github.com/yasenvit/",
+      "svg_path": "img/github.svg"
+    }
+  ],
+  "work_experience": [
+    {
+      "company": "Bank of America",
+      "position": "Consultant - Software Developer ",
+      "start_date": "02/15/2022",
+      "end_date": "Present"
+    },
+    {
+      "company": "Compatibl Technologies LLC",
+      "position": "Software Engineer",
+      "start_date": "02/15/2022",
+      "end_date": "Present",
+      "summary": ""
+    },
+    {
+      "company": "Luccello, Inc.",
+      "position": "Python Developer/Account Manager",
+      "start_date": "11/01/2016",
+      "end_date": "02/15/2022",
+      "summary": "",
+      "highlights": [
+        "Developed a custom product listing generator for Amazon and Overstock.Automated backend processes and optimized workflows using Python libraries (Pandas, Tkinter, PyMySQL)"
+  ]
+}
+],
+  "projects": [
+    {
+      "title": "Equity Watchlist",
+      "summary": "Replicates Yahoo Finance watchlist functionality. Built using Flask API, PyMySQL, MySQL, React.js, Material UI, React Select, HTML, and CSS.",
+      "url": "https://github.com/yasenvit/EquityWatchlist"
+    },
+      {
+      "title": "Ishikawa Diagram",
+      "summary": "Dynamic and responsive fishbone diagram generator for JSON data using React.js and HTML Canvas",
+      "url": "https://www.handleclick.com"
+    },
+    {
+      "title": "NurseAssignment Tool",
+      "summary": "Group project automating nurse-patient assignments based on location. Built using React.js (Google Map API), Python, SQLite3",
+      "url": "https://github.com/yasenvit/NurseAssignment"
+    }
+  ],
+
+  "education": [
+    {
+      "institution": "Byte Academy",
+      "location": "New York, NY, USA",
+      "url": "https://www.byteacademy.co",
+      "degrees": [
+        "26-week full-stack Python and JavaScript immersive program"
+      ],
+      "start_date": "01/2019",
+      "end_date": "09/2019"
+    },
+        {
+      "institution": "Chernivtsi National University",
+      "location": "Chernivtsi, Ukraine",
+      "url": "https://www.chnu.edu.ua/en/",
+      "degrees": [
+        "BS in Accounting and Auditing"
+      ],
+      "start_date": "09/1992",
+      "end_date": "06/1997"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python, Pandas, Flask",
+      "proficiency": 100,
+      "proficiency_label": "Expert"
+    },
+    {
+      "name": "JavaScript, React.js, MySQL, HTML, CSS",
+      "proficiency": 75,
+      "proficiency_label": "Comfortable"
+    }
+  ],
+  "interests": [
+        {
+      "name": "Chess",
+      "summary": ""
+
+    },
+    {
+      "name": "Bicycle Riding",
+      "summary": ""
+
+    },
+        {
+      "name": "Skying",
+      "summary": ""
+
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Ukrainian",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Russian",
+      "fluency": "Fluent"
+    }
+  ],
+  "references": [
+        {
+      "name": "Eric Hall, CEO/Principal StellarDimensions LLC",
+      "email": "erichall@stellardimensions.com",
+      "phone": "347-523-2670",
+      "relationship": "Former Manager",
+      "reference": "Vitaliy has shown excellent skills as a application developer. He has a remarkable and elegant style to his coding that often provides solutions that are both useful and scalable."
+    }
+  ]
+}
