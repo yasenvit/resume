@@ -33,10 +33,10 @@ def get_portfolio_generated():
     # resume_output = resume_template.render(name=data["name"], label=data["label"]...)
 
     # Write the output to an HTML file
-    with Path("resume_web.html").open("w", encoding="utf-8") as f:
+    with Path("web.html").open("w", encoding="utf-8") as f:
         f.write(html_output)
 
-    with Path("resume_pdf.html").open("w", encoding="utf-8") as f:
+    with Path("pdf.html").open("w", encoding="utf-8") as f:
         f.write(resume_output)
 
     print("HTML file generated successfully!")
