@@ -457,6 +457,18 @@ blockquote {
   .side-gallery {
     grid-template-columns: 1fr;
   }
+
+ .horizontal-list {
+  display: flex;
+  gap: 2rem; /* space between items, adjust as needed */
+  flex-wrap: wrap; /* allows wrapping on small screens */
+  justify-content:space-around; /* centers items horizontally */
+}
+.horizontal-list li {
+  /* Optional: style individual items */
+  min-width: 120px;
+  text-align: center;
+}
 }
 
 @media print {
@@ -470,4 +482,15 @@ blockquote {
     -webkit-print-color-adjust: exact !important;
     print-color-adjust: exact !important;
   }
+   .horizontal-list {
+  display: flex;
+  gap: 2rem; /* space between items, adjust as needed */
+  flex-wrap: wrap; /* allows wrapping on small screens */
+  justify-content:space-around; /* centers items horizontally */
+}
+.horizontal-list li {
+  /* Optional: style individual items */
+  min-width: 120px;
+  text-align: center;
+}
 }

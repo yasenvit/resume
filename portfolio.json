@@ -93,7 +93,7 @@
       "proficiency_label": "Expert"
     },
     {
-      "name": "JavaScript, React.js, MySQL, HTML, CSS",
+      "name": "JavaScript, React.js, MySQL, MongoDB, HTML, CSS, Jinja2",
       "proficiency": 75,
       "proficiency_label": "Comfortable"
     }
