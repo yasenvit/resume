@@ -7,7 +7,7 @@
     "phone": "929-378-7771",
     "location": "New York, NY, USA"
   },
-  "summary": "Driven and solutions-oriented software engineer with a proven ability to excel both independently and as part of a team. Passionate about designing and building robust full-stack web applications, with a strong commitment to continuous learning and mastering new technologies. Experienced in architecting, developing, and maintaining scalable back-end API services",
+  "summary": "Driven and solutions-oriented software engineer with a proven ability to excel both independently and as part of a team. Passionate about designing and building robust full-stack web applications, with a strong commitment to continuous learning and mastering new technologies. Experienced in architecting, developing, and maintaining scalable back-end API services.",
 
   "social_links": [
     {
@@ -29,7 +29,7 @@
       "end_date": "Present"
     },
     {
-      "company": "Compatibl Technologies LLC",
+      "company": "CompatibL Technologies, LLC",
       "position": "Software Engineer",
       "start_date": "02/15/2022",
       "end_date": "Present",
@@ -42,7 +42,7 @@
       "end_date": "02/15/2022",
       "summary": "",
       "highlights": [
-        "Developed a custom product listing generator for Amazon and Overstock.Automated backend processes and optimized workflows using Python libraries (Pandas, Tkinter, PyMySQL)"
+        "Developed a custom product listing generator for Amazon and Overstock. Automated backend processes and optimized workflows using Python libraries (Pandas, Tkinter, PyMySQL)"
   ]
 }
 ],
@@ -128,7 +128,7 @@
   ],
   "references": [
         {
-      "name": "Eric Hall, CEO/Principal StellarDimensions LLC",
+      "name": "Eric Hall, CEO/Principal StellarDimensions, LLC",
       "email": "erichall@stellardimensions.com",
       "phone": "347-523-2670",
       "relationship": "Former Manager",
