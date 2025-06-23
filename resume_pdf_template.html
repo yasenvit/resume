@@ -39,7 +39,11 @@
     <link rel="stylesheet" href="css/resume.css">
 
     <!-- Set a theme color that matches your website's primary color -->
-    <meta name="theme-color" content="#fafafa">
+
+    <!-- Windows 8 tile color -->
+    <meta name="msapplication-TileColor" content="#fafafa">
+    <!-- iOS Safari status bar color -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
     <!-- Favicon for all browsers -->
     <link rel="icon" href="/favicon.ico" sizes="any">
@@ -147,20 +151,6 @@
               {% endfor %}
             </section>
           {% endif %}
-          {% if languages %}
-            <section>
-              <h2 class="section-heading">Languages</h2>
-                <ul class="unstyled-list horizontal-list">
-                  {% for lang in languages %}
-                    <li>
-                      <h3>{{ lang.language }}</h3>
-                      <p class="section-label">{{ lang.fluency }}</p>
-                    </li>
-                  {% endfor %}
-                </ul>
-            </section>
-          {% endif %}
-
         </main>
 
         <!-- Sidebar Section -->
@@ -170,12 +160,12 @@
               <h2 class="section-heading">Skills</h2>
               <ul class="unstyled-list">
                 {% for skill in skills %}
-                  <h5>{{ skill.name }}</h5>
+                  <li><h5>{{ skill.name }}</h5></li>
                 {% endfor %}
               </ul>
             </section>
           {% endif %}
-                    {% if projects %}
+          {% if projects %}
             <section>
               <h2 class="section-heading">Projects</h2>
               {% for project in projects %}
@@ -195,6 +185,18 @@
                   {% endif %}
                 </section>
               {% endfor %}
+            </section>
+          {% endif %}
+                    {% if languages %}
+            <section>
+              <h2 class="section-heading">Languages</h2>
+              <ul class="unstyled-list">
+                {% for lang in languages %}
+                  <li>
+                    <span class="lang-row"><strong>{{ lang.language }}</strong> &ndash; <span class="section-label">{{ lang.fluency }}</span></span>
+                  </li>
+                {% endfor %}
+              </ul>
             </section>
           {% endif %}
         </aside>
